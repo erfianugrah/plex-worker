@@ -1,0 +1,8 @@
+{
+    "name": "{{ project-name }}",
+    "version": "1.0.0",
+    "description": "jellyfin caching",
+    "main": "plex.js",
+    "author": "{{ authors }}",
+    "license": "ISC"
+}

@@ -1,0 +1,12 @@
+name = "plex-worker"
+type = "javascript"
+
+[env.staging]
+name = "staging-plex"
+vars = { ENVIRONMENT = "staging" }
+workers_dev = true
+
+[env.prod]
+name = "prod-plex"
+vars = { ENVIRONMENT = "production" }
+route = "*plex.erfianugrah.com/*"
